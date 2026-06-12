@@ -24,8 +24,19 @@ export const timeline: TimelineEvent[] = [
     description: "Developed low-level system utilities and optimized database performance for large-scale enterprise applications."
   },
   {
-    year: "Early 1990s",
+    year: "1993",
+    title: "Master's Degree in Computer Science",
+    company: "University of Milan",
+    description: "Graduated in 'Scienze dell'Informazione', focusing on theoretical computer science and system architecture."
+  },
+  {
+    year: "1990 — 1992",
     title: "Software Developer",
     description: "Started professional career building desktop applications and early web prototypes using C++ and assembly."
+  },
+  {
+    year: "1988",
+    title: "Diploma in Computer Science",
+    description: "Qualified as 'Perito Informatico', gaining foundational knowledge in algorithms, data structures, and low-level programming."
   }
 ];
