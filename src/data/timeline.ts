@@ -24,18 +24,19 @@ export const timeline: TimelineEvent[] = [
     description: "Developed low-level system utilities and optimized database performance for large-scale enterprise applications."
   },
   {
-    year: "1990 — 1992",
-    title: "Software Developer",
-    description: "Started professional career building desktop applications and early web prototypes using C++ and assembly."
+    year: "1995 — 1996",
+    company: "ASST Mantova (Mantua General Hospital)",
+    title: "IT Specialist and Software Developer",
+    description: "Developed software to meet internal needs. Managed the implementation of the first internet connection for the hospital network. Provided technical support and troubleshooting to end-users."
   },
   {
-    year: "1993",
+    year: "1988 - 1993",
     title: "Laurea in Scienze dell'Informazione",
     company: "University of Bologna",
     description: "Four-year Italian degree in Computer Science. Graduated with honors (110/110 cum laude)"
   },
   {
-    year: "1988",
+    year: "1983 - 1988",
     title: "Perito Informatico",
     company: "ITI Fermo Corni, Modena",
     description: "Five-years Technical High School Diploma in Computer Science. Final grade: 60/60"
