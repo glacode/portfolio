@@ -7,21 +7,16 @@ export interface TimelineEvent {
 
 export const timeline: TimelineEvent[] = [
   {
-    year: "2020 — Present",
-    title: "Independent Software Engineer & Open Source Contributor",
-    description: "Focusing on developer tools, AI integration, and high-performance data systems. Building projects like MagiCommit and VSBDB."
+    year: "1997 - Present",
+    title: "ASST Mantova (Mantua General Hospital)",
+    company: "IT Specialist and Software Developer",
+    description: "Developed, maintained, and managed the hospital’s cost accounting system. Developed software to meet internal needs. Provided technical support and troubleshooting to end-users."
   },
   {
-    year: "2010 — 2019",
-    title: "Senior Software Architect",
-    company: "Tech Systems Inc.",
-    description: "Led the transition to cloud-native architectures. Designed and implemented core distributed systems used by millions of users."
-  },
-  {
-    year: "2000 — 2009",
-    title: "Systems Developer",
-    company: "Global Solutions Ltd.",
-    description: "Developed low-level system utilities and optimized database performance for large-scale enterprise applications."
+    year: "1996 — 1997",
+    title: "IT Specialist and Software Developer",
+    company: "Amministrazione Provinciale di Mantova (Provincial Administration of Mantua)",
+    description: "Mantained existing software and developed new software to meet internal needs."
   },
   {
     year: "1995 — 1996",
