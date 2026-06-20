@@ -10,7 +10,7 @@ export const timeline: TimelineEvent[] = [
     year: "1997 - Present",
     title: "ASST Mantova (Mantua General Hospital)",
     company: "IT Specialist and Software Developer",
-    description: "Developed, maintained, and managed the hospital’s cost accounting system. Developed software to meet internal needs. Provided technical support and troubleshooting to end-users."
+    description: "Developed, maintained, and operated the hospital’s cost accounting system, personally managing the end-to-end analytical accounting workflow for mandatory regional reporting. Concepted and built the hospital's first-ever Data Warehouse and Management Control reporting system from scratch. Designed custom software solutions to meet internal institutional needs while providing technical support and troubleshooting to end-users."
   },
   {
     year: "1996 — 1997",
