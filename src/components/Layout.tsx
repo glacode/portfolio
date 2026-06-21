@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const Layout = () => {
   return (
@@ -7,11 +7,11 @@ const Layout = () => {
         <div className="container">
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/timeline">Timeline</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><NavLink to="/" end>Home</NavLink></li>
+              <li><NavLink to="/projects">Projects</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
+              <li><NavLink to="/timeline">Timeline</NavLink></li>
+              <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
           </nav>
         </div>
