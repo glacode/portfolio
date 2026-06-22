@@ -35,9 +35,9 @@ const ThemeToggle = () => {
     <button
       type="button"
       className="theme-toggle"
+      data-tooltip={title}
       onClick={() => setTheme(toggle())}
       aria-label={title}
-      title={title}
     >
       {icon}
     </button>
