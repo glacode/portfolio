@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
-import { projects } from '../data/projects';
+import { Link } from 'react-router-dom'
+import { projects } from '../data/projects'
 
 const Home = () => {
-  const featuredProjects = projects.filter(p => p.featured).slice(0, 4);
+  const featuredProjects = projects.filter(p => p.featured).slice(0, 4)
 
   return (
     <div className="home">
@@ -10,12 +10,9 @@ const Home = () => {
         <h1>John Doe</h1>
         <p className="subtitle">Software Developer</p>
         <p>
-          Software developer since the early 1990s. Passionate about engineering clarity, 
-          simplicity, and long-term maintainability. Experienced in building real-world 
-          software products from low-level systems to modern AI-integrated tools.
+          Software developer since the early 1990s. Passionate about engineering clarity, simplicity, and long-term maintainability. Experienced in building real-world software products from low-level systems to modern AI-integrated tools.
         </p>
       </section>
-
       <section className="featured-projects">
         <h2>Featured Projects</h2>
         <div className="project-grid">
@@ -25,10 +22,17 @@ const Home = () => {
               <p>{project.description}</p>
               <div className="tags">
                 {project.tags?.map(tag => (
-                  <span key={tag} className="tag">{tag}</span>
+                  <span key={tag} className="tag">
+                    {tag}
+                  </span>
                 ))}
               </div>
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="display-block mt-1">
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
                 View on GitHub
               </a>
             </div>
@@ -39,7 +43,7 @@ const Home = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -128,12 +128,23 @@ nav a.active {
   border: 1px solid var(--border-color);
   padding: 1.5rem;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.project-link {
+  margin-top: auto;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .tag {
