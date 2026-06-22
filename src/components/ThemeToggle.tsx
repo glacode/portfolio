@@ -1,4 +1,4 @@
-import { useTheme } from '../hooks/useTheme';
+import { useTheme } from '../hooks/useTheme'
 
 const sunIcon = (
   <svg viewBox="0 0 24 24">
@@ -12,45 +12,36 @@ const sunIcon = (
     <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
   </svg>
-);
+)
 
 const moonIcon = (
   <svg viewBox="0 0 24 24">
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
   </svg>
-);
-
-const systemIcon = (
-  <svg viewBox="0 0 24 24">
-    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-    <line x1="8" y1="21" x2="16" y2="21" />
-    <line x1="12" y1="17" x2="12" y2="21" />
-  </svg>
-);
+)
 
 const ThemeToggle = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme()
 
-  const cycleTheme = () => {
-    if (theme === 'light') return 'dark';
-    if (theme === 'dark') return 'system';
-    return 'light';
-  };
+  const toggle = () => {
+    if (theme === 'dark') return 'light'
+    return 'dark'
+  }
 
-  const icon = theme === 'light' ? sunIcon : theme === 'dark' ? moonIcon : systemIcon;
-  const label = theme === 'light' ? 'Switch to dark theme' : theme === 'dark' ? 'Revert to system theme' : 'Switch to light theme';
+  const icon = theme === 'light' ? sunIcon : moonIcon
+  const title = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'
 
   return (
     <button
       type="button"
       className="theme-toggle"
-      onClick={() => setTheme(cycleTheme())}
-      aria-label={label}
-      title={theme}
+      onClick={() => setTheme(toggle())}
+      aria-label={title}
+      title={title}
     >
       {icon}
     </button>
-  );
-};
+  )
+}
 
-export default ThemeToggle;
+export default ThemeToggle
