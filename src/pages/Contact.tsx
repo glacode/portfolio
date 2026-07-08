@@ -9,7 +9,7 @@ const Contact = () => {
           <strong>GitHub:</strong> <a href="https://github.com/glacode" target="_blank" rel="noopener noreferrer">github.com/glacode</a>
         </p>
         <p>
-          <strong>Email:</strong> contact [at] example.com
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/glaucosiliprandi/" target="_blank" rel="noopener noreferrer">linkedin.com/in/glaucosiliprandi</a>
         </p>
       </div>
       
