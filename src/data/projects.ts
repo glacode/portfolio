@@ -22,13 +22,6 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    name: "MagiCommit",
-    description: "An AI-powered Git commit message generator that understands your changes.",
-    githubUrl: "https://github.com/glacode/magicommit",
-    tags: ["AI", "Git", "Tooling", "VSCode", "Extension"],
-    featured: false
-  },
-  {
     name: "VBSdb",
     description: "VBScript for Database: the classic asp software I developed and sold in 2001-2003.",
     githubUrl: "https://github.com/glacode/vbsdb",
@@ -41,5 +34,12 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/glacode/QuantProject",
     tags: ["C#", "Quantitative Finance", "Library"],
     featured: true
+  },
+  {
+    name: "MagiCommit",
+    description: "An AI-powered Git commit message generator that understands your changes.",
+    githubUrl: "https://github.com/glacode/magicommit",
+    tags: ["AI", "Git", "Tooling", "VSCode", "Extension"],
+    featured: false
   }
 ];
