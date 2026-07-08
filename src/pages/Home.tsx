@@ -7,8 +7,7 @@ const Home = () => {
   return (
     <div className="home">
       <section className="hero">
-        <h1>John Doe</h1>
-        <p className="subtitle">Software Developer</p>
+        <h1>Glauco Siliprandi</h1>
         <p>
           Software developer since the early 1990s. Passionate about engineering clarity, simplicity, and long-term maintainability. Experienced in building real-world software products from low-level systems to modern AI-integrated tools.
         </p>
