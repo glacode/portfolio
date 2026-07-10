@@ -79,9 +79,21 @@ nav ul {
 }
 
 nav a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 0.25rem;
   border-bottom: 2px solid transparent;
   transition: color 0.2s, border-color 0.2s;
+}
+
+nav a::after {
+  content: attr(data-text);
+  font-weight: 600;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
 }
 
 nav a:hover {

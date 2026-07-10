@@ -9,21 +9,21 @@ const Layout = () => {
           <nav>
             <ul>
               <li>
-                <NavLink to="/" end>
+                <NavLink to="/" end data-text="Home">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/projects" data-text="Projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about" data-text="About">About</NavLink>
               </li>
               <li>
-                <NavLink to="/timeline">Timeline</NavLink>
+                <NavLink to="/timeline" data-text="Timeline">Timeline</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" data-text="Contact">Contact</NavLink>
               </li>
               <li style={{ marginLeft: 'auto' }}>
                 <ThemeToggle />
