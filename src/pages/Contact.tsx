@@ -6,13 +6,21 @@ const Contact = () => {
       
       <div className="contact-links">
         <div className="contact-link-item">
-          <img src={`${import.meta.env.BASE_URL}icons/github.svg`} alt="GitHub" className="contact-icon" />
+          <span 
+            className="contact-icon" 
+            style={{ '--icon-url': `url(${import.meta.env.BASE_URL}icons/github.svg)` } as React.CSSProperties}
+            aria-label="GitHub"
+          />
           <p>
             <strong>GitHub:</strong> <a href="https://github.com/glacode" target="_blank" rel="noopener noreferrer">github.com/glacode</a>
           </p>
         </div>
         <div className="contact-link-item">
-          <img src={`${import.meta.env.BASE_URL}icons/linkedin.svg`} alt="LinkedIn" className="contact-icon" />
+          <span 
+            className="contact-icon" 
+            style={{ '--icon-url': `url(${import.meta.env.BASE_URL}icons/linkedin.svg)` } as React.CSSProperties}
+            aria-label="LinkedIn"
+          />
           <p>
             <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/glaucosiliprandi/" target="_blank" rel="noopener noreferrer">linkedin.com/in/glaucosiliprandi</a>
           </p>
