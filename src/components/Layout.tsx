@@ -1,6 +1,14 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import ThemeToggle from './ThemeToggle'
 
+const NAV_LINKS = [
+  { to: '/', label: 'Home', end: true },
+  { to: '/projects', label: 'Projects' },
+  { to: '/about', label: 'About' },
+  { to: '/timeline', label: 'Timeline' },
+  { to: '/contact', label: 'Contact' },
+]
+
 const Layout = () => {
   return (
     <div className="layout">
@@ -8,23 +16,13 @@ const Layout = () => {
         <div className="container">
           <nav>
             <ul>
-              <li>
-                <NavLink to="/" end data-text="Home">
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/projects" data-text="Projects">Projects</NavLink>
-              </li>
-              <li>
-                <NavLink to="/about" data-text="About">About</NavLink>
-              </li>
-              <li>
-                <NavLink to="/timeline" data-text="Timeline">Timeline</NavLink>
-              </li>
-              <li>
-                <NavLink to="/contact" data-text="Contact">Contact</NavLink>
-              </li>
+              {NAV_LINKS.map(({ to, label, end }) => (
+                <li key={to}>
+                  <NavLink to={to} end={end} data-text={label}>
+                    {label}
+                  </NavLink>
+                </li>
+              ))}
               <li style={{ marginLeft: 'auto' }}>
                 <ThemeToggle />
               </li>
