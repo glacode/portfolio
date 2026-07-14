@@ -23,9 +23,9 @@ export const projects: Project[] = [
   },
   {
     name: "VBSdb",
-    description: "VBScript for Database: the classic asp software I developed and sold in 2001-2003.",
+    description: "VBScript for Database: the classic ASP software I developed and commercialized in 2001-2003.",
     githubUrl: "https://github.com/glacode/vbsdb",
-    tags: ["VBScript", "Database", "Performance"],
+    tags: ["VBScript", "Database", "MySql", "Oracle"],
     featured: true
   },
   {
