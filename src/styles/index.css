@@ -157,6 +157,10 @@ nav a.active {
   margin: 0 0 0.5rem;
 }
 
+.project-card p {
+  text-wrap: pretty;
+}
+
 .project-link {
   margin-top: auto;
 }
