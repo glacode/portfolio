@@ -188,7 +188,6 @@ nav a.active {
 .display-block { display: block; }
 .italic { font-style: italic; }
 .text-muted { color: var(--text-secondary); }
-.note { font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem; }
 .contact-links { margin-top: 2rem; }
 .contact-link-item {
   display: flex;

@@ -36,10 +36,6 @@ const Layout = () => {
       <footer>
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Glauco Siliprandi. Built with React & TypeScript.</p>
-          <p className="note">
-            Note: This is a technical demonstration of a portfolio architecture. Content is
-            illustrative.
-          </p>
         </div>
       </footer>
     </div>
