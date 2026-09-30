@@ -34,6 +34,9 @@ const About = () => {
           robust, maintainable, and efficient systems that solve real-world problems with 
           simplicity and clarity.
         </p>
+        <p className="mt-2 italic text-muted">
+          &ldquo;Testing shows the presence, not the absence of bugs.&rdquo; — Edsger W. Dijkstra
+        </p>
       </section>
     </div>
   );
