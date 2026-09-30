@@ -27,8 +27,10 @@ const Contact = () => {
         </div>
       </div>
       
-      <p className="mt-2 italic text-muted">
-        "The best way to predict the future is to invent it." — Alan Kay
+      <p className="mt-2 text-muted">
+        I don't publish my email address or phone number here, to avoid spam and scams. If you'd
+        like to get in touch, please connect with me on LinkedIn. I'm happy to share my contact
+        details directly once we're in conversation.
       </p>
     </div>
   );
