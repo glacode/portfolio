@@ -36,6 +36,13 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    name: "WebLLMChat",
+    description: "A private AI chat that runs a language model entirely in the browser, with no backend and no data leaving your device.",
+    githubUrl: "https://github.com/glacode/WebLLMChat",
+    tags: ["AI", "LLM", "WebGPU", "Privacy"],
+    featured: false
+  },
+  {
     name: "MagiCommit",
     description: "An AI-powered Git commit message generator that understands your changes.",
     githubUrl: "https://github.com/glacode/magicommit",
