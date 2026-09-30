@@ -22,17 +22,17 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    name: "VBSdb",
-    description: "VBScript for Database: the classic ASP software I developed and commercialized in 2001-2003.",
-    githubUrl: "https://github.com/glacode/vbsdb",
-    tags: ["VBScript", "Database", "MySql", "Oracle"],
-    featured: true
-  },
-  {
     name: "QuantProject",
     description: "A C# library for Quantitative Finance - Developed from 2003 to 2014.",
     githubUrl: "https://github.com/glacode/QuantProject",
     tags: ["C#", "Quantitative Finance", "Library"],
+    featured: true
+  },
+  {
+    name: "VBSdb",
+    description: "VBScript for Database: the classic ASP software I developed and commercialized in 2001-2003.",
+    githubUrl: "https://github.com/glacode/vbsdb",
+    tags: ["VBScript", "Database", "MySql", "Oracle"],
     featured: true
   },
   {
